@@ -1,0 +1,165 @@
+.body-border {
+  width: 600px;
+  height: 340px;
+  margin: 30px auto;
+  background: #fff;
+}
+.body-border .body-title-login {
+  width: 600px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+.body-border .body-title-login a {
+  cursor: pointer;
+  font-size: 16px;
+  font-family: PTSansBold;
+  text-transform: uppercase;
+}
+.body-border .body-title-login .body-title {
+  float: left;
+  height: 50px;
+  width: 300px;
+  padding: 16px;
+  cursor: pointer;
+  background: #ccad14;
+}
+.body-border .body-title-login .body-title a {
+  color: #fff;
+}
+.body-border .body-title-login .body-title.selected {
+  background: #fff;
+}
+.body-border .body-title-login .body-title.selected a {
+  color: #3d3d3d;
+}
+.body-border .body-content-login {
+  height: auto;
+  position: relative;
+}
+.body-border .body-content-login .warn {
+  text-align: center;
+  margin: 10px 25px 0px 25px;
+}
+.body-border .body-content-login .body-content-form {
+  margin: 0 auto;
+  width: 288px;
+  min-height: 100px;
+  padding: 24px 0 0 17px;
+}
+.body-border .body-content-login .body-content-form label {
+  color: #808080;
+  font-size: 16px;
+  margin: 20px 0 10px 0;
+  font-family: PTSansRegular;
+}
+.body-border .body-content-login .body-content-form input {
+  height: 32px;
+  width: 270px;
+  padding: 0 0 0 15px;
+  border: 1px solid #808080;
+}
+.body-border .body-content-login .body-content-form .kod {
+  width: 185px;
+}
+.body-border .body-content-login .body-content-form .ubi-kapza {
+  width: 285px;
+  height: auto;
+  margin: 10px 0 0 0;
+  position: relative;
+}
+.body-border .body-content-login .body-content-form .ubi-kapza .kap {
+  height: 40px;
+  width: 125px;
+}
+.body-border .body-content-login .body-content-form .ubi-kapza a {
+  color: #ccad14;
+  font-size: 16px;
+  padding: 0 0 0 10px;
+  font-family: PTSansRegular;
+}
+.body-border .body-content-login .body-content-form .popup-login-wrap {
+  margin: 15px 0 0 0;
+}
+.body-border .body-content-login .body-content-form .form-group {
+  margin: 0 0 24px 0;
+}
+.body-border .body-content-login .body-content-form div {
+  position: relative;
+}
+.body-border .body-content-login .body-content-form div .popup-login-button {
+  color: #333333;
+  font-size: 16px;
+  margin: 10px auto 0 auto;
+  display: block;
+  background: #308fed;
+  text-decoration: none;
+  padding: 7px 25px 7px 25px;
+  font-family: PTSansBold;
+  border: 2px solid #5c5c5c;
+  text-transform: uppercase;
+}
+.body-border .body-content-login .body-content-form div a {
+  cursor: pointer;
+  color: #ccad14;
+  font-size: 16px;
+  padding: 0 0 0 25px;
+  text-decoration: underline;
+  font-family: PTSansRegular;
+}
+.body-border .body-content-login .body-content-social {
+  float: left;
+  height: auto;
+}
+.body-border .body-content-login .body-content-social .body-social-content {
+  margin: 25px 0 0 0;
+}
+.body-border .body-content {
+  position: relative;
+  height: 289px;
+}
+.body-border .body-content .body-another {
+  text-align: center;
+  margin: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.body-border .body-content .body-another a {
+  cursor: pointer;
+}
+.body-border .body-social-content .eauth .eauth-list {
+  margin: 0 auto;
+  width: 500px;
+}
+.body-border .body-social-content .eauth .eauth-service {
+  margin: 25px 51px 11px 51px;
+}
+.body-border .body-social-content .eauth .eauth-service-link:before {
+  width: 62px;
+  height: 62px;
+  left: 16px;
+}
+.body-border .body-social-content .eauth .eauth-service-link {
+  padding-top: 71px;
+  color: #a7a7a7;
+  font-size: 11pt;
+}
+.body-border .body-social-content .eauth .eauth-service-id-google_oauth .eauth-service-link:before {
+  background: url("/images/oauth/google.png") 0 0 no-repeat;
+}
+.body-border .body-social-content .eauth .eauth-service-id-facebook .eauth-service-link:before {
+  background: url("/images/oauth/facebook.png") 0 0 no-repeat;
+}
+.body-border .body-social-content .eauth .eauth-service-id-yandex_oauth .eauth-service-link:before {
+  background: url("/images/oauth/yandex.png") 0 0 no-repeat;
+}
+.body-border .body-social-content .eauth .eauth-service-id-vkontakte .eauth-service-link:before {
+  background: url("/images/oauth/vk.png") 0 0 no-repeat;
+}
+.body-border .body-social-content .eauth .eauth-service-id-mailru .eauth-service-link:before {
+  background: url("/images/oauth/mailru.png") 0 0 no-repeat;
+}
+.body-border .body-social-content .eauth .eauth-service-id-twitter .eauth-service-link:before {
+  background: url("/images/oauth/twitter.png") 0 0 no-repeat;
+}

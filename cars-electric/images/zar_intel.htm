@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Стандарты зарядки</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<meta http-equiv="Content-Type" content="text/html;charset="UTF-8"" />
+<meta name="Author" content="Igor Kretov">
+<meta name="Keywords" content="электромобиль, зарядка, разъем, батарея, аккумулятор">
+<meta name="Description" content="Основные стандарты зарядки батарей электромобилей">
+
+<link rel="icon" href="favicon.ico" />
+
+<link rel="stylesheet" href="css/main.css" />
+<!-- SmartMenus core CSS (required) -->
+<link href="css/sm-core-css.css" rel="stylesheet" type="text/css" />
+<!-- "sm-blue" menu theme (optional, you can use your own CSS, too) --> 
+<link href="css/sm-blue.css" rel="stylesheet" type="text/css" /> 
+<!-- #main-menu config - instance specific stuff not covered in the theme --> <!-- Надо или нет? -->
+<style type="text/css">
+	#main-menu {
+		position:relative;
+		z-index:9999;
+		width:20%;
+	}
+	#main-menu ul {
+	width:12em; /* fixed width only please - you can use the "subMenusMinWidth"/"subMenusMaxWidth" script options to override this if you like */
+	}
+</style> 
+
+<script src="js/modernizr.js"></script>
+
+<script src="js/picturefill.js"></script>
+<!-- menu -->
+<script src="js/jquery.js"></script>
+<script src="js/collapse.js"></script>
+<!-- jQuery -->
+<script type="text/javascript" src="js/jquery-loader.js"></script>
+<!-- SmartMenus jQuery plugin -->
+<script type="text/javascript" src="js/jquery.smartmenus.js"></script>
+<!-- SmartMenus jQuery init -->
+<script type="text/javascript">
+	$(function() {
+		$('#main-menu').smartmenus({
+			mainMenuSubOffsetX: 1,
+			mainMenuSubOffsetY: -8,
+			subMenusSubOffsetX: 1,
+			subMenusSubOffsetY: -8
+		});
+	});
+</script>
+
+<!-- fancybox -->
+        <link rel="stylesheet" href="video/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="video/fancybox/jquery.fancybox.pack.js"></script>
+<script>
+        $(document).ready(function() {
+            $('.fancybox').fancybox({
+                padding : 0,
+                openEffect  : 'elastic'
+            });
+        });
+    </script>
+
+<!-- tables -->
+<link type="text/css" media="screen" rel="stylesheet" href="css/responsive-tables.css" />
+<script type="text/javascript" src="js/responsive-tables.js"></script>
+
+<!-- social -->
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "f88be8e0-1d44-49ac-a42c-d7e7aec0597b", doNotHash: true, doNotCopy: false, hashAddressBar: true});</script>
+
+</head>
+<body>
+
+
+<div id="header">
+    <div class="inner">
+<img sizes="(min-width: 40em) 80vw, 100vw" class="photo"
+srcset="images/small.gif 375w, images/medium.gif 580w, images/extralarge.gif 700w" alt="logo">
+ 
+  		<!-- <img src="images/" class="photo" alt=""> -->
+    </div>
+  </div>
+  <div id="pageBody">
+ <a id="menu-button"></a>   
+<ul id="main-menu" class="sm sm-vertical collapsed sm-blue sm-blue-vertical">
+  <li><a href="http://avtonov.svoi.info/">Главная</a></li>
+  <li><a href="#">Двигатель</a>
+    <ul>
+<li><a href="http://avtonov.svoi.info/engine.php">Типы и параметры</a></li>
+<li><a href="http://avtonov.svoi.info/rabcykl.php">Рабочий цикл</a></li>
+<li><a href="http://avtonov.svoi.info/rabochaja_smes.php">Рабочая смесь</a></li>
+<li><a href="http://avtonov.svoi.info/kshm.php">КШМ</a></li>
+<li><a href="http://avtonov.svoi.info/grm.php">ГРМ</a></li>
+<li><a href="http://avtonov.svoi.info/svvt.php">Регулирование фаз</a></li>
+<li><a href="http://avtonov.svoi.info/colsys.php">Система охлаждения</a></li>
+<li><a href="http://avtonov.svoi.info/smazka.php">Система смазки</a></li>
+<li><a href="http://avtonov.svoi.info/vprysk.php">Инжектор</a></li>
+<li><a href="http://avtonov.svoi.info/disel.php">Дизель</a></li>
+<li><a href="http://avtonov.svoi.info/supsys.php">Советы по системе питания</a></li>
+<li><a href="http://avtonov.svoi.info/benzin.php">О бензине</a></li>
+<li><a href="http://avtonov.svoi.info/prisadki_k_toplivu.php">Присадки к топливу</a></li>
+<li><a href="http://avtonov.svoi.info/nadduv.php">Наддув</a></li>
+<li><a href="http://avtonov.svoi.info/oil.php">Моторное масло</a></li>
+<li><a href="http://avtonov.svoi.info/oilsyst.php">Классификация масел</a></li>
+<li><a href="http://avtonov.svoi.info/rekomendacii_po_maslu.php">Рекомендации по маслу</a></li>
+<li><a href="http://avtonov.svoi.info/filter.php">Фильтра</a></li>
+<li><a href="http://avtonov.svoi.info/diag.php">Диагностика</a></li>
+<li><a href="http://avtonov.svoi.info/engrep.php">Неисправности</a></li>
+<li><a href="http://avtonov.svoi.info/remdvig.php">Капремонт</a></li>
+    </ul>
+  </li>
+  <li><a href="#">Трансмиссия</a>
+<ul>
+<li><a href="http://avtonov.svoi.info/transmis.php">Назначение и типы</a></li>
+<li><a href="http://avtonov.svoi.info/srav.php">Особенности</a></li>
+<li><a href="http://avtonov.svoi.info/scep.php">Сцепление</a></li>
+<li><a href="http://avtonov.svoi.info/kpp.php">КПП</a></li>
+<li><a href="http://avtonov.svoi.info/mkpp.php">МКПП</a></li>
+<li><a href="http://avtonov.svoi.info/akpp.php">АКПП</a></li>
+<li><a href="http://avtonov.svoi.info/cvt.php">Вариатор</a></li>
+<li><a href="http://avtonov.svoi.info/rbt.php">Роботизированая КПП</a></li>
+<li><a href="http://avtonov.svoi.info/diff.php">Дифференциал</a></li>
+<li><a href="http://avtonov.svoi.info/kardan.php">Кардан и ШРУС</a></li>
+<li><a href="http://avtonov.svoi.info/parket.php">Полный привод</a></li>
+    </ul>
+</li>
+<li><a href="#">Ходовая</a>
+    <ul>
+<li><a href="http://avtonov.svoi.info/hodov.php">Устройство</a></li>
+<li><a href="http://avtonov.svoi.info/suspension.php">Подвеска</a></li>
+<li><a href="http://avtonov.svoi.info/razval.php">Углы установки</a></li>
+<li><a href="http://avtonov.svoi.info/absorber.php">Амортизатор</a></li>
+<li><a href="http://avtonov.svoi.info/tire.php">Шины</a></li>
+<li><a href="http://avtonov.svoi.info/tires.php">Еще о шинах</a></li>
+<li><a href="http://avtonov.svoi.info/thorn.php">Шипованые шины</a></li>
+<li><a href="http://avtonov.svoi.info/disk.php">Диски</a></li>
+<li><a href="http://avtonov.svoi.info/stukhod.php">Неисправности</a></li>
+    </ul>
+  </li>
+<li><a href="#">Рулевое</a>
+    <ul>
+<li><a href="http://avtonov.svoi.info/rul.php">Назначение и виды</a></li>
+<li><a href="http://avtonov.svoi.info/uprav.php">Управляемость</a></li>
+<li><a href="http://avtonov.svoi.info/pst.php">ГУР</a></li>
+<li><a href="http://avtonov.svoi.info/epst.php">ЭУР</a></li>
+<li><a href="http://avtonov.svoi.info/servrul.php">Уход</a></li>
+<li><a href="http://avtonov.svoi.info/inrul.php">Умный руль</a></li>
+<li><a href="http://avtonov.svoi.info/5wheel.php">Рулевое колесо</a></li>
+    </ul>
+  </li>
+<li><a href="#">Электрика</a>
+    <ul>
+<li><a href="http://avtonov.svoi.info/tok.php">Основы электротехники</a></li>
+<li><a href="http://avtonov.svoi.info/akb1.php">Аккумулятор: теория</a></li>
+<li><a href="http://avtonov.svoi.info/akb2.php">Аккумулятор: эксплуатация</a></li>
+<li><a href="http://avtonov.svoi.info/akb.php">Аккумулятор: выбор</a></li>
+<li><a href="http://avtonov.svoi.info/starter.php">Стартер</a></li>
+<li><a href="http://avtonov.svoi.info/alter.php">Генератор</a></li>
+<li><a href="http://avtonov.svoi.info/ignsys.php">Зажигание</a></li>
+<li><a href="http://avtonov.svoi.info/spark.php">Свечи: теория</a></li>
+<li><a href="http://avtonov.svoi.info/sppl.php">Свечи: практика</a></li>
+<li><a href="http://avtonov.svoi.info/wire.php">Провода</a></li>
+<li><a href="http://avtonov.svoi.info/svet.php">Автосвет</a></li>
+<li><a href="http://avtonov.svoi.info/neispravnosti_elektrooborudovania.php">Практика ремонта</a></li>
+    </ul>
+  </li>
+<li><a href="#">Тормоза</a>
+<ul>
+<li><a href="http://avtonov.svoi.info/brake.php">Тормозная система</a></li>
+<li><a href="http://avtonov.svoi.info/dicol.php">Диски</a></li>
+<li><a href="http://avtonov.svoi.info/brpad.php">Колодки</a></li>
+<li><a href="http://avtonov.svoi.info/brfluid.php">Тормозные жидкости</a></li>
+<li><a href="http://avtonov.svoi.info/abs.php">АБС</a></li>
+<li><a href="http://avtonov.svoi.info/elbrake.php">Помощники тормозов</a></li>
+<li><a href="http://avtonov.svoi.info/remont.php">Неисправности</a></li>
+</ul>
+</li>
+<li><a href="#">Тюнинг</a>
+<ul>
+<li><a href="http://avtonov.svoi.info/tuning.php">Виды тюнинга</a></li>
+<li><a href="http://avtonov.svoi.info/tuneng.php">Тюнинг двигателя</a></li>
+<li><a href="http://avtonov.svoi.info/chip.php">Чип-тюнинг</a></li>
+<li><a href="http://avtonov.svoi.info/drysump.php">Сухой картер</a></li>
+<li><a href="http://avtonov.svoi.info/tunvv.php">Впуск и выпуск</a></li>
+<li><a href="http://avtonov.svoi.info/tuntrans.php">Тюнинг трансмиссии</a></li>
+<li><a href="http://avtonov.svoi.info/kulak.php">Кулачковая КПП</a></li>
+<li><a href="http://avtonov.svoi.info/tunhod.php">Тюнинг ходовой</a></li>
+</ul>
+</li>
+
+<li><a href="#">Автомобильная экология</a>
+    <ul>
+<li><a href="http://avtonov.svoi.info/euro.php">Автоэкология</a></li>
+<li><a href="http://avtonov.svoi.info/eobd.php">Система EOBD</a></li>
+<li><a href="http://avtonov.svoi.info/stst.php">Система старт-стоп</a></li>
+<li><a href="http://avtonov.svoi.info/vent_cart.php">Система вентиляции картера</a></li>
+<li><a href="http://avtonov.svoi.info/vcm.php">Отключение цилиндров</a></li>
+<li><a href="http://avtonov.svoi.info/ecoil.php">Энергосберегающие масла</a></li>   
+<li><a href="http://avtonov.svoi.info/egr.php">Система EGR</a></li>
+<li><a href="http://avtonov.svoi.info/skyactiv.php">Технология SKYACTIV</a></li>
+<li><a href="http://avtonov.svoi.info/schaeffler.php">Инновации от Schaeffler</a></li>
+<li><a href="http://avtonov.svoi.info/ecofuel.php">Экотопливо</a></li>
+<li><a href="http://avtonov.svoi.info/euro_normy.php">Нормы Евро</a></li>
+<li><a href="http://avtonov.svoi.info/nedc.php">Ездовые циклы</a></li>
+<li><a href="http://avtonov.svoi.info/ecomarkirovka_avto.php">Экомаркировка автомобилей</a></li>
+<li><a href="http://avtonov.svoi.info/ecomarkirovka_usa.php">Экомаркировка в США</a></li>
+</ul>
+  </li>
+
+<li><a href="#">"Зеленые" автомобили</a>
+<ul>
+<li><a href="http://avtonov.svoi.info/hybrid.php">Гибриды</a></li>
+<li><a href="http://avtonov.svoi.info/ev.php">Электромобили</a></li>
+<li><a href="http://avtonov.svoi.info/batt.php">Ni-MH аккумулятор</a></li>
+<li><a href="http://avtonov.svoi.info/libatt.php">Li-ion аккумулятор</a></li>
+<li><a href="http://avtonov.svoi.info/lipol.php">Li-pol аккумулятор</a></li>
+<li><a href="http://avtonov.svoi.info/perspektivnye_tipy_batarei.php">Перспективные типы батарей</a></li>
+<li><a href="http://avtonov.svoi.info/charge.php">Стандарты зарядки</a></li>
+<li><a href="http://avtonov.svoi.info/fcev.php">Автомобили на водороде</a></li>
+<li><a href="http://avtonov.svoi.info/fcell.php">Топливные элементы</a></li>
+<li><a href="http://avtonov.svoi.info/standarty_zapravki_vodorodom.php">Заправка водородом</a></li>
+</ul>
+  </li>
+
+<li><a href="#">Разное</a>
+    <ul>
+<li><a href="http://avtonov.svoi.info/teoriya_dvizheniya_avtomobiliya.php">Теория движения автомобиля</a></li>
+<li><a href="http://avtonov.svoi.info/abrev.php">Аббревиатуры</a></li>
+<li><a href="http://avtonov.svoi.info/aerodynamika_avtomobilya.php">Аэродинамика автомобиля</a></li>
+<li><a href="http://avtonov.svoi.info/wwfc.php">Всемирная топливная хартия</a></li>
+<li><a href="http://avtonov.svoi.info/petrol.php">Требования к бензину</a></li>
+<li><a href="http://avtonov.svoi.info/dizel.php">Требования к дизтопливу</a></li>
+<li><a href="http://avtonov.svoi.info/gaz.php">ГБО: выбор</a></li>
+<li><a href="http://avtonov.svoi.info/gazgen.php">ГБО: поколения</a></li>
+<li><a href="http://avtonov.svoi.info/safe.php">Системы безопасности</a></li>
+<li><a href="http://avtonov.svoi.info/frost.php">Зимняя эксплуатация</a></li>
+<li><a href="http://avtonov.svoi.info/rust.php">Коррозия</a></li>
+<li><a href="http://avtonov.svoi.info/condic.php">Кондиционер</a></li>
+<li><a href="http://avtonov.svoi.info/cond.php">Кондиционер: уход и ремонт</a></li>
+<li><a href="http://avtonov.svoi.info/heater.php">Подогреватели</a></li>
+<li><a href="http://avtonov.svoi.info/apt.php">Автомобильная аптечка</a></li>
+<li><a href="http://avtonov.svoi.info/buyca.php">Покупка б/у авто</a></li>
+<li><a href="http://avtonov.svoi.info/prodazha_avto.php">Продажа б/у авто</a></li>
+<li><a href="http://avtonov.svoi.info/mehanicheskie_sredstva_zashchity_ot_ugona.php">Защита от угона ч.1</a></li>
+<li><a href="http://avtonov.svoi.info/antiugon.php">Защита от угона ч.2</a></li>
+<li><a href="http://avtonov.svoi.info/sovety_opytnih_voditeley.php">Советы бывалых автомобилистов</a></li>
+<li><a href="http://avtonov.svoi.info/bestcar.php">Автомобили года</a></li>
+    </ul>
+  </li>
+<li><a href="#">История автомобиля</a>
+    <ul>
+<li><a href="http://avtonov.svoi.info/january.php">1-10 января</a></li>
+<li><a href="http://avtonov.svoi.info/january2.php">11-20 января</a></li>
+<li><a href="http://avtonov.svoi.info/january3.php">21-30 января</a></li>
+<li><a href="http://avtonov.svoi.info/february.php">1-10 февраля</a></li>
+<li><a href="http://avtonov.svoi.info/february2.php">11-20 февраля</a></li>
+<li><a href="http://avtonov.svoi.info/february3.php">21-29 февраля</a></li>
+<li><a href="http://avtonov.svoi.info/march.php">1-10 марта</a></li>
+<li><a href="http://avtonov.svoi.info/march2.php">11-20 марта</a></li>
+<li><a href="http://avtonov.svoi.info/march3.php">21-31 марта</a></li>
+<li><a href="http://avtonov.svoi.info/april.php">1-10 апреля</a></li>
+<li><a href="http://avtonov.svoi.info/april2.php">11-20 апреля</a></li>
+<li><a href="http://avtonov.svoi.info/april3.php">21-30 апреля</a></li>
+<li><a href="http://avtonov.svoi.info/may.php">1-10 мая</a></li>
+<li><a href="http://avtonov.svoi.info/may2.php">11-20 мая</a></li>
+<li><a href="http://avtonov.svoi.info/may3.php">21-31 мая</a></li>
+<li><a href="http://avtonov.svoi.info/june.php">1-10 июня</a></li>
+<li><a href="http://avtonov.svoi.info/june2.php">11-20 июня</a></li>
+<li><a href="http://avtonov.svoi.info/june3.php">21-30 июня</a></li>
+<li><a href="http://avtonov.svoi.info/july.php">1-10 июля</a></li>
+<li><a href="http://avtonov.svoi.info/july2.php">11-20 июля</a></li>
+<li><a href="http://avtonov.svoi.info/july3.php">21-31 июля</a></li>
+<li><a href="http://avtonov.svoi.info/august.php">1-10 августа</a></li>
+<li><a href="http://avtonov.svoi.info/august2.php">11-20 августа</a></li>
+<li><a href="http://avtonov.svoi.info/august3.php">21-31 августа</a></li>
+<li><a href="http://avtonov.svoi.info/september.php">1-10 сентября</a></li>
+<li><a href="http://avtonov.svoi.info/september2.php">11-20 сентября</a></li>
+<li><a href="http://avtonov.svoi.info/september3.php">21-30 сентября</a></li>
+<li><a href="http://avtonov.svoi.info/october.php">1-10 октября</a></li>
+<li><a href="http://avtonov.svoi.info/october2.php">11-20 октября</a></li>
+<li><a href="http://avtonov.svoi.info/october3.php">21-31 октября</a></li>
+<li><a href="http://avtonov.svoi.info/november.php">1-10 ноября</a></li>
+<li><a href="http://avtonov.svoi.info/november2.php">11-20 ноября</a></li>
+<li><a href="http://avtonov.svoi.info/november3.php">21-30 ноября</a></li>
+<li><a href="http://avtonov.svoi.info/december.php">1-10 декабря</a></li>
+<li><a href="http://avtonov.svoi.info/december2.php">11-20 декабря</a></li>
+<li><a href="http://avtonov.svoi.info/december3.php">21-31 декабря</a></li>
+    </ul>
+  </li>
+</ul>
+
+<require_once($_SERVER['DOCUMENT_ROOT'].'/setlinks_b5797/slsimple.php');?>
+<div id="content">
+      <div class="inner">
+    
+
+
+
+<h1>Как заряжают электромобили</h1>
+<article>
+<p>Рынок электромобилей довольно динамично развивается. По прогнозам Европейской комиссии к 2020 году количество электрических транспортных средств только в Европе составит несколько миллионов экземпляров. Для их подзарядки нужны крупные сети зарядных станций. Но их созданию препятствует, среди прочих причин, и  неопределенность в стандартах. Каждый производитель использует собственные батареи, параметры зарядки и электрические разъемы. Удастся ли договориться?</p>
+<p>Для зарядки аккумуляторных батарей электромобилей используется переменный (однофазный или трехфазный) и постоянный ток. Сеть переменного тока общедоступна, но для подзарядки необходимо его выпрямить и понизить напряжение до напряжения бортовой сети электромобиля. Выпрямительные устройства громоздки, нагреваются при работе, требуя дополнительного охлаждения. Поэтому их мощность приходится ограничивать. Малая мощность таких зарядных устройств существенно увеличивает время зарядки. Зарядка мощным постоянным током позволяет зарядить батареи намного быстрее, но требует создания сети специальных зарядных станций.</p>
+<h2>Стандарт IEC 62196-2</h2>
+<p>Этот международный стандарт определяет типы электрических разъемов и режимы зарядки электромобилей. Он предусматривает обязательное наличие механизма, отключающего силовую цепь при несанкционированном начале движения электромобиля с подключенным кабелем. Стандарт поддерживается Международной электротехнической комиссией. Однако IEC 62196-2 не устанавливает физические размеры электрических разъемов. Стандартом определены три типа электрических разъемов и четыре вида режима заряда аккумуляторов электромобиля.</p>
+<h2>США: J1772 и Supercharger</h2>
+<a class="fancybox" rel="group" href="images/euro_n/charge1.gif" title="Старый и новый разъемы J1772"><img src="images/euro_n/charge1a.gif" align="left" class="risl" alt="Старый и новый разъемы J1772" border="0" /></a>
+<p>Общество автомобильных инженеров США (SAE) еще в 2009 году разработало стандарт пятиштырькового разъема J1772, предназначенный для зарядки от сети переменного тока. Это наиболее универсальный разъем, имеющийся практически в любом электромобиле. С целью дальнейшей унификации в конце 2012 года был представлен обновленный разъем стандарта J1772. Его конструкция предусматривает возможность зарядки аккумуляторов электромобиля переменным, постоянными или обоими видами электрического тока одновременно. Новый разъем представляет собой старый, пятиштырьковый, дополненный штепселем для подключения постоянного тока. Таким образом, электромобили прошлых лет выпусков смогут подключаться к новым зарядным терминалам без дополнительного переоборудования. Обновленный стандарт J1772 так же определяет уровни напряжений, подаваемых на разъем, и требует установки дополнительных средств безопасности, которые позволят подключать и отключать разъем, на контактах которого может присутствовать высокое напряжение, при любых погодных условиях.</p>
+<p>Американский производитель суперэлектрокаров Tesla Motors развивает собственную сеть зарядных станций, работающих по технологии Supercharger. Суть ее предельно проста: солнечные батареи преобразуют солнечный свет в электроэнергию, которая хранится в сверх емком аккумуляторе (500 кВт/ч). Полная зарядка батареи электромобиля занимает не более получаса. Что примечательно, зарядка производится бесплатно. Накопленные же излишки электроэнергии планируется продавать энергетическим компаниям.</p>
+<h2 class="h">Европа: Mennekes Type 2</h2>
+<a class="fancybox" rel="group" href="images/euro_n/charge2.gif" title="Разъем Mennekes Type 2"><img src="images/euro_n/charge2a.gif" align="left" class="risl" alt="Разъем Mennekes Type 2" border="0" /></a>
+<p>В январе 2013 года Европейская комиссия обнародовала план развития экологически чистых видов топлива. В нем, в частности, был установлен и общеевропейский тип разъема для зарядных станций и электромобилей. Им стал разработанный немецкой компанией Mennekes разъем Type 2 (согласно международному стандарту IEC 62196-2). Решение комиссии не было волюнтаристским, оно лишь официально утвердило факт: разъем этого типа наиболее широко используется в Европе. Он позволяет коммутировать силовые цепи мощностью до 43,5 кВт и силой тока до 63 А. Используется в однофазных и трехфазных сетях. Некоторые европейские автопроизводители высказывали мнение об утверждении в Европе американского J1772, на что в Еврокомиссии возразили, что разъемы такого типа в Европе не распространены.</p>
+<h2>Япония: CHAdeMО</h2>
+<a class="fancybox" rel="group" href="images/euro_n/charge3.gif" title="Разъем CHAdeMО"><img src="images/euro_n/charge3a.gif" align="left" class="risl" alt="Разъем CHAdeMО" border="0" /></a>
+<p>CHAdeMО - стандарт быстрой зарядки аккумулятора электромобиля постоянным током через специальный разъем. Название происходит от сокращения французских слов «charge de move», что на русский можно перевести как «зарядись для движения». Ассоциация «CHAdeMO» была основана в 2010 году Токийской энергетической компанией («TEPCO»), автоконцернами «Nissan», «Mitsubishi» и «Subaru», позже к ним присоединилась и «Toyota». Мощность зарядки составляет от 50 кВт до 100 кВт, что позволяет заряжать батарею до 80% емкости за полчаса. Зарядные станции CHAdeMO имеются в Японии, Европе и США. Но последние решения американцев и европейцев по утверждению собственных стандартов явно направлены на вытеснение CHAdeMО с рынка.</p>
+<h2>Автопроизводители: Combined Charging System</h2>
+<a class="fancybox" rel="group" href="images/euro_n/charge4.gif" title="Разъем Combined Charging System"><img src="images/euro_n/charge4a.gif" align="left" class="risl" alt="Разъем Combined Charging System" border="0" /></a>
+<p>В мае 2012 года восемь крупнейших европейских и американских производителей (Audi, BMW, Chrysler, Daimler, Ford, General Motors, Porsche, Volkswagen) объявили о том, что для всех производимых ими электромобилей будет использоваться единый стандарт Combined Charging System. Разъем этого типа позволяет осуществлять зарядку в любом из четырех предусмотренных международном стандартом IEC 62196-2 режимах: медленная зарядка от бытовой розетки; медленная зарядка от бытовой розетки через кабель со встроенным устройством защиты; медленная или быстрая зарядка через специальный разъем с функцией контроля заряда и защиты; быстрая зарядка от внешнего зарядного устройства. Таким образом, оборудованный разъемом Combined Charging System электромобиль можно подключать к любым сетям и зарядным станциям. Введение этого стандарта намечено на 2017 год, хотя первые модели должны появиться уже в 2013.</p>
+</article>
+<span class='st_vkontakte_large' displayText='Vkontakte'></span>
+<span class='st_facebook_large' displayText='Facebook'></span>
+<span class='st_mail_ru_large' displayText='mail.ru'></span>
+<span class='st_odnoklassniki_large' displayText='Odnoklassniki'></span>
+<span class='st_twitter_large' displayText='Tweet'></span>
+
+</div>      
+</div>
+<div id="sidebar">
+      <div class="inner">
+   <span>Реклама</span>
+<div>  
+<script async="async" src="https://w.uptolike.com/widgets/v1/zp.js?pid=lf56938ff67f0d136a54f962fd3d855b6b1ae0f725" type="text/javascript"></script></div> 
+ </div>
+    </div>
+   </div>
+   <div id="footer">
+    <div class="inner">
+<ul class="spfoot">
+<li><a href="http://avtonov.svoi.info/map.php">Карта сайта</a></li>
+<li><a href="http://avtonov.svoi.info/pismo.php">Написать автору</a></li>
+<li><a href="http://avtonov.svoi.info/xel">Каталог статей</a></li>
+</ul>
+
+<ul class="spfoot_sm">
+<li><a href="http://avtonov.svoi.info/map.php"><img src="images/sitemap.gif"></a></li>
+<li><a href="http://avtonov.svoi.info/pismo.php"><img src="images/email.gif"></a></li>
+<li><a href="http://avtonov.svoi.info/xel"><img src="images/catalog.gif"></a></li>
+</ul>
+
+    </div>
+  </div>
+<!--92700--> </body>
+</html>
+
+

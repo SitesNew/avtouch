@@ -1,0 +1,224 @@
+/*!
+ *  Font Awesome 4.1.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('/user/fonts/fontawesome-webfont.eot');
+  src: url('/user/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), 
+  url('/user/fonts/fontawesome-webfont.woff') format('woff'), 
+  url('/user/fonts/fontawesome-webfont.ttf') format('truetype'), 
+  url('/user/fonts/fontawesome-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.fa { 
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-play-circle-o:before {
+  content: "\f01d";
+}
+.fa-envelope-o:before {
+  content: "\f003";
+}
+.fa-envelope:before {
+  content: "\f0e0";
+}
+.fa-comment:before {
+  content: "\f075";
+}
+.fa-print:before {
+  content: "\f02f";
+}
+.fa-caret-right:before {
+  content: "\f0da";
+}
+.fa-arrow-left:before {
+  content: "\f060";
+}
+.fa-arrow-right:before {
+  content: "\f061";
+}
+.fa-arrow-up:before {
+  content: "\f062";
+}
+.fa-search:before {
+  content: "\f002";
+}
+.fa-share-alt:before {
+  content: "\f1e0";
+}
+.fa-lock:before {
+  content: "\f023";
+}
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before {
+  content: "\f0c9";
+}
+.fa-twitter-square:before {
+  content: "\f081";
+}
+.fa-youtube-square:before {
+  content: "\f166";
+}
+.fa-instagram:before {
+  content: "\f16d";
+}
+.fa-rss:before {
+  content: "\f09e";
+}
+.fa-times:before {
+  content: "\f00d";
+}
+.fa-vk:before {
+  content: "\f189";
+}
+.fa-facebook-square:before {
+  content: "\f082";
+}
+.fa-google:before {
+  content: "\f0d5";
+}
+
+.fa-google-plus-square:before {
+  content: "\f0d4";
+}
+.fa-angle-left:before {
+  content: "\f104";
+}
+.fa-angle-right:before {
+  content: "\f105";
+}
+.fa-angle-up:before {
+  content: "\f106";
+}
+.fa-angle-down:before {
+  content: "\f107";
+}
+.fa-arrows-alt:before {
+  content: "\f0b2";
+}
+.fa-compress:before {
+  content: "\f066";
+}
+.fa-angle-double-left:before {
+  content: "\f100";
+}
+.fa-angle-double-right:before {
+  content: "\f101";
+}
+.fa-external-link:before {
+  content: "\f08e";
+}
+.fa-chevron-left:before {
+  content: "\f053";
+}
+.fa-chevron-right:before {
+  content: "\f054";
+}
+.fa-check-square-o:before {
+  content: "\f046";
+}
+.fa-camera:before {
+  content: "\f030";
+}
+.fa-play-circle:before {
+  content: "\f144";
+}
+.fa-eye:before {
+  content: "\f06e";
+}
+.fa-comment-o:before {
+  content: "\f0e5";
+}
+.fa-search-plus:before {
+  content: "\f00e";
+}
+.fa-twitter:before {
+  content: "\f099";
+}
+.fa-facebook:before {
+  content: "\f09a";
+}
+.fa-youtube:before {
+  content: "\f167";
+}
+.fa-nv:before {
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAbFJREFUeNo0kU9rE1EUxc99816c4CSdJDBKBTdVunDjRpqpUBBBETfFpZvqRhdKVwoW/BiC4LIRSheFKlhFpYhgwKqg1W/QgiYqaZvazJ839/oG9MGBx+F37zu8Q08aEcojgK+IrhpSs5poXET+ZCIvrfAiAVslo/+BE1VSnYauxIHnQYuUHkYiMwO2t4fW3nTOU11u9JX3OCKv3XKg76QcDGZkTn5WHFUV09mx2RlFBV9p1cfakytLCM/G8FgwttxB+OoZorVVjC/cQQtUP0TqnjKEy4ExqMZteCcnQEci6HgK+bsu7NdvqM3fQq3ZRFUwoxRosgzOgwGq9xcQrj8HnCv7PejTp5C/eQu1uwujdV25dFvsYBUcRvLwEYbXbwC2cNM+ks4yzKULMOfPwR4cjHQu/GLEPGt//kLxeRO2+x68vQ3/2hyQpsher2P4ZROp1h9ptRGFNW0+HGu2ToRpBmMtVLMBEKFwL+z1++i5y2/IdBl3Z9/mc9/7/aWsUjkeeBr6Rw9ltMR94QCSOt1lkY3/pXT3wHFi83mf+aIBBUySZcKfEuYHrs0N1yL+CjAAlb3A5m4fkbYAAAAASUVORK5CYII=); background-repeat:no-repeat; display:inline-block; width:11px; height:11px; 
+content:" "; top:2px; position:relative;
+}
+.fa-coub:before {
+  content: "\f1ec";
+}
+
+.fa-square-o:before {
+  content: "\f1e7";
+}
+.fa-thumbs-up:before {
+  content: "\f164";
+}
+.fa-thumbs-down:before {
+  content: "\f165";
+}
+
+.fa-long-arrow-down:before {
+  content: "\f175";
+}
+.fa-long-arrow-up:before {
+  content: "\f176";
+} 
+.fa-caret-down:before {
+  content: "\f0d7";
+}
+.fa-caret-up:before {
+  content: "\f0d8";
+}
+
+.fa-euro:before,
+.fa-eur:before {
+  content: "\f153";
+}
+
+.fa-dollar:before,
+.fa-usd:before {
+  content: "\f155";
+}
+
+.fa-volume-off:before {
+  content: "\f026";
+}
+
+.fa-volume-up:before {
+  content: "\f028";
+}
+
+.fa-video-camera:before {
+  content: "\f03d";
+}
+
+.fa-check:before {
+  content: "\f00c";
+}
+
+.fa-sign-out:before {
+  content: "\f08b";
+}
+
+.fa-sign-in:before {
+  content: "\f090";
+}
+.fa-user:before {
+  content: "\f007";
+}

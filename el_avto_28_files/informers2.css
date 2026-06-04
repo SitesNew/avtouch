@@ -1,0 +1,159 @@
+.SinoptikInformer * {font-family:arial!important;text-align:center!important;font-weight:normal!important;font-size:11px!important;line-height:12px!important;text-decoration:none!important;}
+.SinoptikInformer img {border:0;}
+.SinoptikInformer a {background:none!important;}
+.SinoptikInformer .siHeader {background:url("//sinst.fwdcdn.com/img/informers/logo-t1.png") no-repeat top right!important;height:23px!important;position:relative!important;}
+.SinoptikInformer .siHeader .siLh {background:url("//sinst.fwdcdn.com/img/informers/hlc-t1.png") no-repeat top left!important;padding:0 91px 0 5px!important;height:23px!important;}
+.SinoptikInformer .siHeader .siMh {text-align:left !important;height:17px!important;padding:5px 0 0 2px!important;background:#ecf5ff!important;border-top:1px solid #a3b4c8!important;color:#4a5d75!important;font-size:11px!important;}
+.SinoptikInformer .siHeader .siMh a {color:#1c56a5!important;font-weight:bold!important;}
+.SinoptikInformer .siHeader .siMh a.siLogo {position:absolute!important;top:1px!important;right:1px!important;height:20px!important;width:80px!important;}
+.SinoptikInformer .siHeader .siMh a.siLogo img {height:20px!important;width:80px!important;}
+.SinoptikInformer .siTitle {color:#4a5d75!important;line-height:17px!important;padding:1px 0 0 0!important;border-bottom:1px solid #dfe6ed!important;margin:0 2px!important;}
+.SinoptikInformer .siFooter {background:url("//sinst.fwdcdn.com/img/informers/frc-t1.png") no-repeat top right!important;height:4px!important;}
+.SinoptikInformer .siFooter .siLf {background:url("//sinst.fwdcdn.com/img/informers/flc-t1.png") no-repeat top left!important;padding:0 5px!important;height:4px!important;}
+.SinoptikInformer .siFooter .siMf {height:3px!important;background:#ffffff!important;border-bottom:1px solid #a3b4c8!important;font-size:0!important;}
+.SinoptikInformer .siBody {border-right:1px solid #a3b4c8!important;border-left:1px solid #a3b4c8!important;padding:1px 0 0 0!important;background:#ffffff!important;}
+.SinoptikInformer .siBody table {width:100%!important;border-collapse:separate!important;border-spacing:1px 0!important;margin-top:1px!important;}
+.SinoptikInformer .siBody table td {vertical-align:bottom!important;}
+.SinoptikInformer .siLinks {padding:2px 2px 0 2px!important;}
+.SinoptikInformer .siLinks span {display:inline-block!important;}
+.SinoptikInformer .siLinks a {color:#1c56a5!important;line-height:13px!important;margin:0 1px!important;}
+.SinoptikInformer .siCity {border:#ffffff 1px solid!important;border-bottom:1px solid #dfe6ed!important;margin:1px 1px 0!important;padding:0 0 2px!important;-moz-border-radius:5px!important;border-radius:5px!important;}
+.SinoptikInformer .siCityV {border:#ffffff 1px solid!important;border-bottom:none!important;padding:0!important;-moz-border-radius:5px 5px 0 0!important;border-radius:5px 5px 0 0!important;}
+.SinoptikInformer .siCityV2 {border:#ffffff 1px solid!important;border-top:none!important;border-bottom:1px solid #dfe6ed!important;padding:0 0 2px!important;-moz-border-radius:0 0 5px 5px!important;border-radius:0 0 5px 5px!important;}
+.SinoptikInformer .siCityName {padding:2px 4px!important;overflow:hidden;text-overflow:ellipsis;}
+.SinoptikInformer .siCityName a {color:#4a5d75!important;}
+.SinoptikInformer .siCityName a span {color:#000000!important;white-space:nowrap!important;}
+.SinoptikInformer a .siCityName {color:#000!important;}
+.SinoptikInformer .siCityName a span, .SinoptikInformer a .siCityName span {color:#000000!important;white-space:nowrap!important;}
+.SinoptikInformer .siBodyContent .siInf p span .wind {display:inline-block!important;width:9px!important;height:9px!important;background:url("//sinst.fwdcdn.com/img/informers/s-wind2.png") no-repeat;font-size:1px!important;}
+.SinoptikInformer .wind-S {background-position:0 0 !important;}
+.SinoptikInformer .wind-SW {background-position:0 -9px !important;}
+.SinoptikInformer .wind-W {background-position:0 -18px !important;}
+.SinoptikInformer .wind-NW {background-position:0 -27px !important;}
+.SinoptikInformer .wind-N {background-position:0 -36px !important;}
+.SinoptikInformer .wind-NE {background-position:0 -45px !important;}
+.SinoptikInformer .wind-E {background-position:0 -54px !important;}
+.SinoptikInformer .wind-SE {background-position:0 -63px !important;}
+.SinoptikInformer .wind-Z {background-position:0 -72px !important;}
+.SinoptikInformer .siBodyContent .siLeft {display:inline-block!important;width:107px!important;padding-top:3px!important;}
+.SinoptikInformer .siBodyContent .siLeft .siT {font-size:25px!important;line-height:25px!important;color:#000000!important;width:50px!important;display:inline-block!important;vertical-align:top!important;padding:4px 0 0 0!important;letter-spacing:-1px!important;}
+.SinoptikInformer .siBodyContent .siLeft .siTerm {height:31px!important;width:11px!important;background:url("//sinst.fwdcdn.com/img/informers/term-t1.png") no-repeat!important;display:inline-block!important;vertical-align:top!important;margin:2px 0 0 3px!important;}
+.SinoptikInformer .siBodyContent .siLeft .weatherIco {display:inline-block!important;height:36px!important;width:43px!important;background:url("//sinst.fwdcdn.com/img/informers/s-informers.png") no-repeat;vertical-align:top!important;margin:0!important;}
+.SinoptikInformer .siBodyContent .siInf {display:inline-block!important;width:95px!important;vertical-align:top!important;}
+.SinoptikInformer .siBodyContent .siInf p {text-align:left!important;margin:0!important;padding:0!important;line-height:13px!important;color:#4a5d75!important;border:none!important;}
+.SinoptikInformer .siBodyContent .siInf p span {margin:0!important;padding:0!important;line-height:13px!important;color:#000000!important;font-weight:bold!important;}
+.SinoptikInformer .d100 {background-position:0 0 !important;}
+.SinoptikInformer .d110 {background-position:-43px 0 !important;}
+.SinoptikInformer .d111, .SinoptikInformer .d121, .SinoptikInformer .d131, .SinoptikInformer .d141 {background-position:-86px 0 !important;}
+.SinoptikInformer .d112 {background-position:-129px 0 !important;}
+.SinoptikInformer .d120 {background-position:-172px 0 !important;}
+.SinoptikInformer .d122 {background-position:-215px 0 !important;}
+.SinoptikInformer .d130 {background-position:-258px 0 !important;}
+.SinoptikInformer .d132, .SinoptikInformer .d142 {background-position:-301px 0 !important;}
+.SinoptikInformer .d140 {background-position:-344px 0 !important;}
+.SinoptikInformer .d200 {background-position:0 -36px !important;}
+.SinoptikInformer .d210 {background-position:-43px -36px !important;}
+.SinoptikInformer .d211, .SinoptikInformer .d221, .SinoptikInformer .d231, .SinoptikInformer .d241 {background-position:-86px -36px !important;}
+.SinoptikInformer .d212 {background-position:-129px -36px !important;}
+.SinoptikInformer .d220 {background-position:-172px -36px !important;}
+.SinoptikInformer .d222 {background-position:-215px -36px !important;}
+.SinoptikInformer .d230 {background-position:-258px -36px !important;}
+.SinoptikInformer .d232, .SinoptikInformer .d242 {background-position:-301px -36px !important;}
+.SinoptikInformer .d240 {background-position:-344px -36px !important;}
+.SinoptikInformer .d300 {background-position:0 -72px !important;}
+.SinoptikInformer .d310 {background-position:-43px -72px !important;}
+.SinoptikInformer .d311, .SinoptikInformer .d321, .SinoptikInformer .d331, .SinoptikInformer .d341 {background-position:-86px -72px !important;}
+.SinoptikInformer .d312 {background-position:-129px -72px !important;}
+.SinoptikInformer .d320 {background-position:-172px -72px !important;}
+.SinoptikInformer .d322 {background-position:-215px -72px !important;}
+.SinoptikInformer .d330 {background-position:-258px -72px !important;}
+.SinoptikInformer .d332, .SinoptikInformer .d342 {background-position:-301px -72px !important;}
+.SinoptikInformer .d340 {background-position:-344px -72px !important;}
+.SinoptikInformer .d400 {background-position:0 -108px !important;}
+.SinoptikInformer .d410 {background-position:-43px -108px !important;}
+.SinoptikInformer .d411, .SinoptikInformer .d421, .SinoptikInformer .d431, .SinoptikInformer .d441 {background-position:-86px -108px !important;}
+.SinoptikInformer .d412 {background-position:-129px -108px !important;}
+.SinoptikInformer .d420 {background-position:-172px -108px !important;}
+.SinoptikInformer .d422 {background-position:-215px -108px !important;}
+.SinoptikInformer .d430 {background-position:-258px -108px !important;}
+.SinoptikInformer .d432, .SinoptikInformer .d442 {background-position:-301px -108px !important;}
+.SinoptikInformer .d440 {background-position:-344px -108px !important;}
+.SinoptikInformer .d000 {background-position:0 -288px !important;}
+.SinoptikInformer .d500 {background-position:-43px -288px !important;}
+.SinoptikInformer .d600 {background-position:-86px -288px !important;}
+.SinoptikInformer .n000 {background-position:-129px -288px !important;}
+.SinoptikInformer .n500 {background-position:-172px -288px !important;}
+.SinoptikInformer .n600 {background-position:-215px -288px !important;}
+.SinoptikInformer .n100 {background-position:0 -144px !important;}
+.SinoptikInformer .n110 {background-position:-43px -144px !important;}
+.SinoptikInformer .n111, .SinoptikInformer .n121, .SinoptikInformer .n131, .SinoptikInformer .n141 {background-position:-86px -144px !important;}
+.SinoptikInformer .n112 {background-position:-129px -144px !important;}
+.SinoptikInformer .n120 {background-position:-172px -144px !important;}
+.SinoptikInformer .n122 {background-position:-215px -144px !important;}
+.SinoptikInformer .n130 {background-position:-258px -144px !important;}
+.SinoptikInformer .n132, .SinoptikInformer .n142 {background-position:-301px -144px !important;}
+.SinoptikInformer .n140 {background-position:-344px -144px !important;}
+.SinoptikInformer .n200 {background-position:0 -180px !important;}
+.SinoptikInformer .n210 {background-position:-43px -180px !important;}
+.SinoptikInformer .n211, .SinoptikInformer .n221, .SinoptikInformer .n231, .SinoptikInformer .n241 {background-position:-86px -180px !important;}
+.SinoptikInformer .n212 {background-position:-129px -180px !important;}
+.SinoptikInformer .n220 {background-position:-172px -180px !important;}
+.SinoptikInformer .n222 {background-position:-215px -180px !important;}
+.SinoptikInformer .n230 {background-position:-258px -180px !important;}
+.SinoptikInformer .n232, .SinoptikInformer .n242 {background-position:-301px -180px !important;}
+.SinoptikInformer .n240 {background-position:-344px -180px !important;}
+.SinoptikInformer .n300 {background-position:0 -216px !important;}
+.SinoptikInformer .n310 {background-position:-43px -216px !important;}
+.SinoptikInformer .n311, .SinoptikInformer .n321, .SinoptikInformer .n331, .SinoptikInformer .n341 {background-position:-86px -216px !important;}
+.SinoptikInformer .n312 {background-position:-129px -216px !important;}
+.SinoptikInformer .n320 {background-position:-172px -216px !important;}
+.SinoptikInformer .n322 {background-position:-215px -216px !important;}
+.SinoptikInformer .n330 {background-position:-258px -216px !important;}
+.SinoptikInformer .n332, .SinoptikInformer .n342 {background-position:-301px -216px !important;}
+.SinoptikInformer .n340 {background-position:-344px -216px !important;}
+.SinoptikInformer .n400 {background-position:0 -252px !important;}
+.SinoptikInformer .n410 {background-position:-43px -252px !important;}
+.SinoptikInformer .n411, .SinoptikInformer .n421, .SinoptikInformer .n431, .SinoptikInformer .n441 {background-position:-86px -252px !important;}
+.SinoptikInformer .n412 {background-position:-129px -252px !important;}
+.SinoptikInformer .n420 {background-position:-172px -252px !important;}
+.SinoptikInformer .n422 {background-position:-215px -252px !important;}
+.SinoptikInformer .n430 {background-position:-258px -252px !important;}
+.SinoptikInformer .n432, .SinoptikInformer .n442 {background-position:-301px -252px !important;}
+.SinoptikInformer .n440 {background-position:-344px -252px !important;}
+.type1c1 .siBodyContent .siLeft .siTerm,.type2c1 .siBodyContent .siLeft .siTerm,.type3c1 .siBodyContent .siLeft .siTerm,.type4c1 .siBodyContent .siLeft .siTerm,.type5c1 .siBodyContent .siLeft .siTerm {background:url("//sinst.fwdcdn.com/img/informers/term-t2.png") no-repeat!important;}
+.type1c1 .siBodyContent .siLeft .weatherIco,.type2c1 .siBodyContent .siLeft .weatherIco,.type3c1 .siBodyContent .siLeft .weatherIco,.type4c1 .siBodyContent .siLeft .weatherIco,.type5c1 .siBodyContent .siLeft .weatherIco {background:url("//sinst.fwdcdn.com/img/informers/s-informers-t2.png") no-repeat;}
+.type1c1 .siCity,.type2c1 .siCity,.type3c1 .siCity,.type4c1 .siCity,.type5c1 .siCity,
+.type1c1 .siCityV,.type2c1 .siCityV,.type3c1 .siCityV,.type4c1 .siCityV,.type5c1 .siCityV,
+.type1c1 .siCityV2,.type2c1 .siCityV2,.type3c1 .siCityV2,.type4c1 .siCityV2,.type5c1 .siCityV2 {background:#ecf3fa!important;}
+
+
+.type2c1 .siTitle,.type3c1 .siTitle,.type4c1 .siTitle {line-height:18px!important;border-bottom:none!important;}
+.type1 .siCityName,.type1c1 .siCityName,.type5 .siCityName,.type5c1 .siCityName {padding: 3px 4px!important;}
+.type1c1 .siHeader,.type5c1 .siHeader,.htic1 .siHeader {background:url("//sinst.fwdcdn.com/img/informers/logo-t2.png") no-repeat top right!important;}
+.type1c1 .siHeader .siLh,.type5c1 .siHeader .siLh,.htic1 .siHeader .siLh {background:url("//sinst.fwdcdn.com/img/informers/hlc-t2.png") no-repeat top left!important;}
+.type1c1 .siHeader .siMh,.type5c1 .siHeader .siMh,.htic1 .siHeader .siMh {background:#ffffff!important;}
+.type1 .siHeader .siMh a,.type1c1 .siHeader .siMh a,.type5 .siHeader .siMh a,.type5c1 .siHeader .siMh a,.htic1 .siHeader .siMh a {color:#4a5d75!important;font-weight:bold!important;}
+.type1 .siCityName *,.type1c1 .siCityName *,.type5 .siCityName *,.type5c1 .siCityName * {font-size:12px!important;}
+.type1 a .siCityName,.type1c1 a .siCityName,.type5 a .siCityName,.type5c1 a .siCityName {font-size:12px!important;}
+.type1 .siBodyContent .siInf,.type1c1 .siBodyContent .siInf {padding-left:10px!important;}
+.type2 .siBodyContent .siInf,.type2c1 .siBodyContent .siInf {padding-left:2px!important;}
+.type3 .siBodyContent .siInf,.type3c1 .siBodyContent .siInf {width:85px!important;padding-left:2px!important;}
+.type4 .siBodyContent .siInf,.type4c1 .siBodyContent .siInf {width:auto!important;}
+.type5 .siBodyContent .siInf,.type5c1 .siBodyContent .siInf {width:182px!important;padding-left:5px!important;text-align:left!important;padding-top:7px!important;}
+.type4 .siBodyContent .siInf p,.type4c1 .siBodyContent .siInf p {display:inline-block!important;padding:0 3px!important;}
+.type5 .siBodyContent .siInf p,.type5c1 .siBodyContent .siInf p {display:inline-block!important;padding:0 3px 0 0!important;}
+.type1 .siCity,.type1c1 .siCity,.type5 .siCity,.type5c1 .siCity,
+.type1 .siCityV2,.type1c1 .siCityV2,.type5 .siCityV2,.type5c1 .siCityV2 {padding-bottom:6px!important;}
+
+.type4 .siBodyContent .siInf p,
+.type4c1 .siBodyContent .siInf p,
+.type5 .siBodyContent .siInf p,
+.type5c1 .siBodyContent .siInf p,
+.SinoptikInformer .siBodyContent .siInf p span .wind,
+.SinoptikInformer .siBodyContent .siLeft .siT,
+.SinoptikInformer .siBodyContent .siLeft .siTerm,
+.SinoptikInformer .siBodyContent .siLeft .weatherIco,
+.SinoptikInformer .siBodyContent .siLeft,
+.SinoptikInformer .siBodyContent .siInf {*display:inline!important;*zoom:1;}
+
+.SinoptikInformer .siBody table {*border-collapse:collapse!important;*border-spacing:0!important;}

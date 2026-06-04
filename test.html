@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple translation tools.<!--{jp} з°ЎеЌгЃЄзї»иЁігѓ„гѓјгѓ«--><!-- noneз®ЂеЌ•зљ„зї»иЇ‘е·Ґе…·--><!--{cn} з®ЂеЌ•зљ„зї»иЇ‘е·Ґе…·--></title>
+    <meta charset="UTF-8"">
+    <style type="text/css">
+    body,html,ul,li{margin: 0;padding: 0;font-size: 14px; }
+    body,html{height: 100%;font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",SimSun,sans-serif;}
+    table{height: 100%;width: 100%;}
+    a{text-decoration: none;}
+    header{
+        background-color: #409D76;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        color: #fff;
+    }
+    .header h1{font-size: 55px;margin: 0 0 20px 0;}
+    .header h1 span{font-size: 55px;color: #17533A;font-weight: bold;;}
+    .btn {
+        display: inline-block;
+        padding: 4px 15px;
+        cursor: pointer;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        user-select: none;
+        background-image: none;
+        border-radius: 4px;
+        margin: 0 5px;
+
+        color: #333;
+        background-color: #fff;
+        border-color: #ccc;
+        transition: all .3s ease;
+    }
+    .btn:hover,.active{
+        background: #216F4E;
+        color: #fff;
+    }
+    .btn:active{
+        background: #323232;
+        color: #fff;
+    }
+    .describe{
+        padding: 30px 15px;
+        max-width: 500px;
+        margin: 0 auto;
+        line-height: 23px;
+    }
+    .fork-github {position: absolute; right: 0; top: 0;z-index: 9;}
+    </style>
+</head>
+<body>
+
+<img 
+    alt="image" 
+    alt-cn="е›ѕз‰‡" 
+    alt-jp="з”»еѓЏ" 
+    
+    title="image2" 
+    title-cn="е›ѕз‰‡2" 
+    title-jp="з”»еѓЏ2" 
+
+    src="../img/imgae.jpg" 
+    data-lang-cn="../img/imgae_cn.jpg" 
+    data-lang-jp="../img/imgae_jp.jpg"/>
+
+
+<input type="text" placeholder="like this?"  placeholder-cn="еѓЏиї™ж ·пјџ"  />
+<input type="button" value="button" value-cn="жЊ‰й’®" value-jp="жЊ‰й’®ж—Ґжњ¬"  />
+
+<header>
+<table class="header">
+    <tbody>
+        <tr>
+            <td>
+    <h1>Translater<span>.JS</span></h1>
+    <div id="btns">
+        <a class="btn active" onclick="setlang('default',this)" href="javascript:;">English</a><a 
+        class="btn" onclick="setlang('jp',this)" href="javascript:;">ж—Ґжњ¬иЄћ</a><a 
+        class="btn" onclick="setlang('cn',this)" href="javascript:;">дё­ж–‡</a> 
+    </div>
+                
+    <div class="describe">
+        This is a use of HTML comments page translation solution. For a small amount of static pages, this solution is more simple. it has no dependents, Compression only (4KB)
+        <!--{jp}гЃ“г‚ЊгЃЇHTMLжіЁй‡€гЃ®гѓљгѓјг‚ёгЃ®зї»иЁігЃ®и§Јж±єж–№жЎ€г‚’е€©з”ЁгЃ—гЃѕгЃ™гЂ‚е°‘й‡ЏгЃ®йќ™зљ„гЃЄгѓљгѓјг‚ёгЃ«еЇѕгЃ—гЃ¦гЂЃгЃ“гЃ®и§Јж±єж–№жЎ€гЃЇг‚‚гЃЈгЃЁз°ЎеЌгЃ§гЃ™гЂ‚й јг‚ЉгЃЄгЃЏгЃ¦пјЊењ§зё®еѕЊгЃЇпј€~4kbпј‰-->
+        <!--{cn}иї™жЇдёЂдёЄе€©з”ЁHTMLжіЁй‡Љзљ„йЎµйќўзї»иЇ‘и§Је†іж–№жЎ€гЂ‚еЇ№дєЋе°‘й‡Џзљ„йќ™жЂЃйЎµйќўпјЊиї™з§Ќи§Је†іж–№жЎ€жѕеѕ—ж›ґз®ЂеЌ•гЂ‚е®ѓжІЎжњ‰дѕќиµ–пјЊеЋ‹зј©еђЋеЏЄжњ‰(~4kb)гЂ‚-->
+    </div> 
+            </td>
+        </tr>
+    </tbody>
+</table> 
+
+</header>
+
+
+<script type="text/javascript" src="../dist/translater.js"></script>
+<script type="text/javascript">
+    var Translater = new Translater();
+
+    var btns = document.getElementById('btns');
+
+    for (var i = 0; i < btns.childNodes.length; i++) {
+        var  str = btns.childNodes[i].outerHTML;
+        if(str){
+            str = str.match(/onclick=\"setlang\(\'(.*?)\'\,/);
+            if(str.length>1 && str[1] === Translater.lang_name){
+                btns.childNodes[i].className = 'btn active'
+            }else{
+                btns.childNodes[i].className = 'btn'
+            }
+        }
+    }
+
+    function setlang(name,self){
+        Translater.setLang(name);
+        var btns = self.parentNode.children;
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].className = 'btn';
+        }
+        self.className = 'btn active';
+    }
+</script>
+
+</body>
+</html>

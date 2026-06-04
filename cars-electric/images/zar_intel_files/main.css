@@ -1,0 +1,341 @@
+body {
+  margin: 5px;
+  padding: 0;
+  font-family: "Georgia", serif;
+  line-height: 130%;
+  font-size: 105%;
+background: #FAFAD2;
+}
+ 
+h1 {
+  line-height: 100%;
+}
+ 
+#pageBody {
+  max-width: 1200px;
+}
+ 
+#header, #footer, h1, h2, h3 {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+ 
+#header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+ 
+#header .inner {
+  margin: 0 0 5px 0;
+ /* padding: 20px; */
+  color: #fff;
+/*background-image: url(../images/fon.gif);*/
+background: #fff; /*#F38630*/
+}
+
+#header a {
+  display: block;
+  float: right;
+  color: #fff;
+  font-weight: normal;
+  font-size: 80%;
+}
+ 
+#content {
+  float: right;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+ 
+#content .inner {
+  margin-left: 5px;
+  padding: 20px;
+  color: #333;
+  background: #FAFAD2; /* #E0E4CC */
+}
+ 
+#sidebar {
+  float: left;
+  width: 20%;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+ 
+#sidebar .inner {
+  margin: 0px;
+  padding: 20px;
+  color: #fff;
+  background: #69D2E7;
+  font-size: 85%;
+}
+ 
+#footer {
+  clear: both;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background: #FA6900;  
+}
+ 
+#footer .inner {
+  padding: 5px 20px;
+}
+
+.photo {
+  float: none;
+  margin: 5px; /*.4em 0 10px 10px*/
+  border: none;
+  max-width: 95%;
+}
+
+p, ul, li {
+text-align:justify;
+}
+
+.gal {
+margin: 5px;
+padding: 5px;
+}
+
+.risl{
+margin:10px 10px 0px 0px;
+}
+
+.risr{
+margin:10px 0px 0px 10px;
+}
+
+.risc{
+margin:10px 0px 10px 0px;
+}
+
+.spec {
+width:100%;
+background-color:white;
+text-align:center;
+border-collapse: separate;
+border:2px solid blue;
+font: 11px arial;
+margin: 7px;
+}
+
+.specnar {
+width:30%;
+background-color:white;
+text-align:center;
+border-collapse: separate;
+border:2px solid blue;
+font: 11px arial;
+margin: 7px;
+}
+
+.specrow {
+font-weight: bold;
+background-color:#FF9966;
+color:white;
+}
+
+.act {
+background-color:#CCFFCC;
+}
+
+.stargen {
+border-collapse:collapse;
+empty-cells: show;
+}
+
+.stargen td {
+vertical-align: middle;
+background-color: white;
+padding: 3px;
+font: 12px arial;
+border: 1px solid black;
+}
+
+.perevod {
+/*width:440px;*/
+color: blue;
+background:white;
+padding: 10px;
+font:12px georgia;
+}
+
+.spfoot {
+text-align: center;
+padding-left: 0;
+}
+
+ul.spfoot li {
+display: inline;
+margin: 0;
+padding: 0 20px;
+}
+
+.spfoot a {
+text-decoration: none; 
+color: #fff;
+}
+
+.spfoot_sm {
+visibility: hidden;
+}
+
+.spfoot_sm li {
+display: none;
+}
+
+table.data {margin:5px auto; border:solid 1px #339933; font:12px arial; text-align:center;background:#f5f5f5;}
+table.data th, table.data td {border:solid 1px #ccc; padding:5px 5px;}
+table.data th {color:#fff; background:#399933;}
+table.data td {color:#000; background:#f5f5f5;}
+table.data caption {margin: 1px auto; border:1px solid #399933; background:#f5f5f5;}
+
+table.eco {margin:5px auto; border:solid 1px #339933; font:14px arial; text-align:center; background:#f5f5f5;}
+table.eco th, table.eco td {border:solid 1px #ccc; padding:5px 5px;}
+table.eco th {color:#006400;}
+table.eco td {color:#000;}
+table.eco caption {margin: 1px auto; border:1px solid #399933; background:#f5f5f5;}
+
+table.data {margin:5px auto; border:solid 1px #339933; font:12px arial; text-align:center;background:#f5f5f5;}
+table.data th, table.data td {border:solid 1px #ccc; padding:5px 5px;}
+table.data th {color:#fff; background:#399933;}
+table.data td {color:#000; background:#f5f5f5;}
+table.data caption {margin: 1px auto; border:1px solid #399933; background:#f5f5f5;}
+
+/* If the viewport width <= 700 pixels ... */
+ 
+@media screen and (max-width: 700px) {
+ 
+  /* Make the main content fill the viewport width */
+ 
+  #content {
+    width: 100%;
+  }
+ 
+  /* Remove the main content left margin */
+ 
+  #content .inner {
+    margin-left: 0; 
+  }
+ 
+  /* Put the nav above the main content */
+ 
+  #main-menu {
+    float: none;
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+ 
+ /* Place the sidebar below the main content */
+ 
+  #sidebar {
+    float: none;
+    clear: both;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+body {
+        font-size: 100%;
+      } 
+}
+
+
+/* If the viewport width <= 480 pixels ... */
+ 
+@media screen and (max-width: 480px) {
+ 
+  body {
+    margin: 0;
+   font-size: 95%;
+   }
+ 
+  #header .inner {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+   
+  #header .inner, #content, #sidebar {
+    margin-bottom: 5px;
+  }
+
+#akpp, #video, .spfoot {display: none;}
+
+.spfoot_sm {
+visibility: visible;
+text-align: center;
+padding-left: 0;
+}
+
+.spfoot_sm li {
+display: inline;
+padding: 0 12px;
+}
+ 
+}
+
+/* Collapsible sidebar for viewports <= 480px */
+ 
+    #sidebar.collapsible .inner>span {
+      padding-left: 40px;
+      padding-top: 3px;
+      height: 29px;
+      background: rgba(255,255,255,.3) url('plusminus.png') no-repeat 0 0;
+      background-clip: padding-box;
+      border: 5px solid rgba(255,255,255,.3);
+      border-radius: 5px;
+      cursor: pointer;
+    }
+ 
+    #sidebar.collapsible .inner>span.minus {
+      background-position: 0 -32px;
+    }
+
+#sidebar span {font-size: 22px;}
+
+/* Collapsible menu for viewports <= 640px */
+
+#menu-button {
+  display:none;
+
+/* style it as you like... */
+
+margin: 0 5px 5px 5px;
+padding:9px 40px 8px 23px;
+		background:#3193c0; /* Old browsers */
+		background-image:url(css-gradients-fallback/vertical-main-item-bg.png);
+		background-image:-moz-linear-gradient(top,#3fa3d1 0%,#2586b3 100%);
+		background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#3fa3d1),color-stop(100%,#2586b3));
+		background-image:-webkit-linear-gradient(top,#3fa3d1 0%,#2586b3 100%);
+		background-image:-o-linear-gradient(top,#3fa3d1 0%,#2586b3 100%);
+		background-image:-ms-linear-gradient(top,#3fa3d1 0%,#2586b3 100%);
+		background-image:linear-gradient(top,#3fa3d1 0%,#2586b3 100%);
+	
+-moz-border-radius:8px;
+		-webkit-border-radius:8px;
+		border-radius:8px;
+
+color:#fff;
+font-size:18px;
+font-family:"PT Sans Narrow","Arial Narrow",Arial,Helvetica,sans-serif;
+font-weight:bold;
+}
+
+#menu-button:before {
+  content:'Меню -';
+}
+#menu-button.collapsed:before {
+  content:'Меню +';
+}
+@media screen and (max-width: 640px) {
+  /* show the button on small screens */
+  #menu-button {
+    display:inline-block;
+  }
+  /* hide the menu when it has the "collapsed" class set by the script */
+  #main-menu.collapsed {
+    display:none;
+  }
+}

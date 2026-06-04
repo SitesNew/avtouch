@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'DaggerC';
+  src: url(DaggerC.otf) format("opentype");
+}
+@font-face {
+  font-family: 'EuropeExt';
+  src: url(EuropeExt.otf) format("opentype");
+}
+@font-face {
+  font-family: 'UniSansThinCAPS';
+  src: url(UniSansThinCAPS.otf) format("opentype");
+}
+@font-face {
+  font-family: 'EvgeniaDeco';
+  src: url(EvgeniaDeco.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'GoudyDecorShodwnC';
+  src: url(GoudyDecorShodwnC.ttf) format('truetype');
+}

@@ -1,0 +1,264 @@
+@import "fontello/css/fontello.css";
+@import "fontello/css/autoportal-codes.css";
+.complain-content {
+  width: 500px;
+  margin: 30px;
+  background: #fff;
+}
+.complain-content .complain-main {
+  overflow: hidden;
+}
+.complain-content .complain-main .complain-main-title {
+  margin-top: 0;
+  font-size: 22px;
+  padding-top: 15px;
+  padding-left: 10px;
+  font-family: PTSansRegular, serif;
+  font-weight: bold;
+}
+.complain-content .complain-main .complain-main-content-complain {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.complain-content .complain-main .complain-main-content-complain p {
+  font-family: PTSansRegular, serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+.complain-content .complain-main .complain-main-content-complain .comment {
+  margin-bottom: 10px;
+}
+.complain-content .complain-main .complain-main-content-complain textarea {
+  height: 80px;
+  max-width: 480px;
+  min-width: 480px;
+  border: 2px solid #4a4a4a;
+}
+.complain-content .complain-main .send-wrapper {
+  float: right;
+  position: relative;
+  width: auto;
+  padding: 5px 10px 5px;
+}
+.complain-content .complain-main .send-wrapper .send-button {
+  position: relative;
+  float: left;
+  cursor: pointer;
+  font-size: 18px;
+  color: #4a4a4a;
+  left: -18px;
+  height: 22px;
+}
+.complain-content .complain-main .send-wrapper .send-button:hover {
+  text-decoration: underline;
+}
+.complain-content .complain-main .send-wrapper .close-popup {
+  position: relative;
+  float: left;
+  height: 22px;
+  color: #4a4a4a;
+  font-size: 18px;
+  cursor: pointer;
+}
+.complain-content .complain-main .send-wrapper .close-popup:hover {
+  text-decoration: underline;
+}
+.comments {
+  max-width: 630px;
+  margin: 20px 0 0 0;
+}
+.comments .c-title {
+  color: #4a4a4a;
+  font-size: 18pt;
+  margin: 0 0 20px 0;
+  font-family: PTSansRegular, serif;
+  font-weight: bold;
+}
+.comments .c-title img {
+  margin: 0 3px 0 10px;
+}
+.comments .c-form textarea {
+  max-width: 620px;
+  min-width: 620px;
+  padding: 5px;
+}
+.comments .c-form button {
+  font-size: 15px;
+  background: #fff;
+  font-weight: bold;
+  padding: 3px 15px;
+  margin: 10px 0 15px 0;
+  text-transform: uppercase;
+  border: 2px solid #4a4a4a;
+}
+.comments .c-form .c-focus-only {
+  display: none;
+}
+.comments .c-form.c-focused .c-focus-only {
+  display: block;
+}
+.comments textarea#editField {
+  min-width: 536px;
+  max-width: 620px;
+}
+.comments .c-comment {
+  font-family: PTSansRegular, serif;
+  font-weight: normal;
+  font-size: 16px;
+  padding: 22px 0 22px 0;
+  padding-left: 85px;
+}
+.comments .c-comment .c-text {
+  line-height: 14pt;
+}
+.comments .c-comment .c-reply {
+  color: #8c8c8c;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100px;
+  float: left;
+}
+.comments .c-comment .c-reply:hover {
+  text-decoration: underline;
+}
+.comments .c-comment .c-user {
+  margin-bottom: 14px;
+  position: relative;
+}
+.comments .c-comment .c-user .c-username {
+  font-weight: bold;
+  color: black;
+}
+.comments .c-comment .c-user .c-username img {
+  border-radius: 33px;
+  position: absolute;
+  left: -85px;
+  top: 0px;
+  width: 66px;
+  height: 66px;
+}
+.comments .c-comment .c-user .c-timestamp {
+  font-family: PTSansRegular, serif;
+  font-weight: bold;
+  font-style: italic;
+  padding-left: 14px;
+}
+.comments .c-comment .c-user .c-timestamp a {
+  color: #8c8c8c;
+}
+.comments .c-comment .c-user .c-reply-to {
+  background: url("reply-to.png") no-repeat 0px 2px;
+  font-family: PTSansRegular, serif;
+  font-weight: normal;
+  padding-left: 20px;
+  margin-left: 13px;
+}
+.comments .c-comment .c-user .c-reply-to img {
+  width: 16px;
+  height: 16px;
+  margin-top: -2px;
+  border-radius: 8px;
+}
+.comments .c-comment .c-user .c-reply-to a {
+  color: #8c8c8c;
+}
+.comments .c-comment .c-user .c-comment-hide {
+  float: right;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.comments .c-comment .c-footer {
+  margin-top: 20px;
+}
+.comments .c-comment .c-footer span {
+  color: #8c8c8c;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100px;
+  float: left;
+}
+.comments .c-comment .c-like-users {
+  font-size: 0.9em;
+  padding-top: 5px;
+  position: relative;
+  width: 530px;
+  word-wrap: normal;
+}
+.comments .c-comment .c-like-users .more-like-users {
+  cursor: pointer;
+}
+.comments .c-comment .c-edit {
+  display: none;
+  margin: -16px 0 0 10px;
+  position: relative;
+  min-height: 1px;
+}
+.comments .c-comment:hover .c-edit {
+  display: block;
+  background: url("images/edit-24.png") no-repeat 0;
+  margin: -16px 0 0 10px;
+  position: relative;
+  min-height: 25px;
+}
+.comments .c-comment .c-complain {
+  display: block;
+  height: 45px;
+  margin: -16px 0 0 10px;
+}
+.comments .c-comment:hover .c-complain {
+  display: block;
+  background: url("images/megaphone.png") no-repeat 0;
+  height: 45px;
+  margin: -16px 0 0 10px;
+  width: 45px;
+}
+.comments .c-comment-list .c-comment-list {
+  margin-left: 30px;
+}
+.comments .c-comment-list .c-comment-list .c-comment-list .c-comment-list .c-comment-list {
+  margin-left: 0;
+}
+.comments .c-like {
+  bottom: 9px;
+  float: right;
+  position: relative;
+  width: auto;
+}
+.comments .c-like .c-like-select {
+  float: left;
+}
+.comments .c-like .c-like-select span {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.comments .c-like .c-like-select-type {
+  display: none;
+  position: relative;
+  top: -3px;
+}
+.comments .c-like .c-like-message {
+  display: none;
+}
+.comments .c-like #c-like-image {
+  float: left;
+  left: 0px;
+  position: relative;
+  top: -2px;
+  font-size: 23px;
+}
+.comments .c-like .c-like-count {
+  float: left;
+  padding-left: 2px;
+  padding-right: 5px;
+  width: auto;
+}
+.comments .c-edit-buttons span {
+  background: #fff none repeat scroll 0 0;
+  border: 2px solid #4a4a4a;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0 15px;
+  padding: 3px 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}

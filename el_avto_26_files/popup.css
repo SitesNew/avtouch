@@ -1,0 +1,131 @@
+/*------ RPopup ------*/
+.RPopup-loader {
+  z-index: 3000;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-image: url('/images/popup-loader.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  top: 0;
+}
+.RPopup-loader div:first-child {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.RPopup-loader div:first-child div:first-child {
+  width: 50px;
+  height: 20px;
+  position: relative;
+  top: 50px;
+  left: -25px;
+  padding: 0;
+  font-size: 10px;
+  line-height: 20px;
+}
+.RPopup {
+  width: 100%;
+  height: 101%;
+  position: fixed;
+  z-index: 1000;
+  margin: 0;
+}
+.RPopup .screen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0;
+  z-index: 1001;
+  top: 0px;
+  left: 0;
+}
+.RPopup .body {
+  width: 930px;
+  z-index: 1002;
+  height: 400px;
+  position: fixed;
+  margin: -200px 0 0 -349px;
+  top: 50%;
+  left: 50%;
+  background-color: #fff;
+  box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.7);
+}
+.RPopup .body .close {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  cursor: pointer;
+  top: -10px;
+  right: -10px;
+  background: url('') no-repeat 0 0;
+}
+.popup-login .body {
+  max-width: 660px;
+  z-index: 1002;
+  height: 400px;
+  background: #308fed;
+  margin: -200px 0 0 -349px;
+  width: 100%;
+}
+.popup-login .body .body-border .body-title-login .body-title a {
+  font-family: PTSansRegular, serif;
+  font-weight: bold;
+  font-style: normal;
+}
+.popup-login .body .body-border .body-content-login .body-content-form div .popup-login-button {
+  font-family: PTSansRegular;
+  font-weight: bold;
+}
+.popup-add-mail .body {
+  width: 660px;
+  z-index: 1004;
+  height: 350px;
+  border: 25px solid #308fed;
+  padding: 30px;
+  margin: -175px 0 0 -349px;
+}
+@media (max-width: 660px) {
+  .popup-login .body {
+    margin-left: -50%;
+  }
+}
+@media (max-width: 600px) {
+  .popup-login .body .body-border {
+    width: 100%;
+  }
+  .popup-login .body .body-border .body-title-login {
+    width: 100%;
+  }
+  .popup-login .body .body-border .body-title-login .body-title {
+    width: 50%;
+  }
+  .popup-login .body .body-border .body-title-login .body-title a {
+    font-family: PTSansRegular;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 13px;
+  }
+  .popup-login .body .body-border .body-content .body-social-content .eauth .eauth-list {
+    text-align: center;
+    width: 100%;
+  }
+  .popup-login .body .body-border .body-content .body-social-content .eauth .eauth-list .eauth-service {
+    margin: 25px 9.5% 11px 9.5%;
+    width: 14%;
+    max-width: 62px;
+  }
+  .popup-login .body .body-border .body-content .body-social-content .eauth .eauth-list .eauth-service .eauth-service-link {
+    padding-top: 110%;
+    width: 100%;
+  }
+  .popup-login .body .body-border .body-content .body-social-content .eauth .eauth-list .eauth-service .eauth-service-link::before {
+    width: 100%;
+    height: 100%;
+    background-size: 100% !important;
+  }
+}
